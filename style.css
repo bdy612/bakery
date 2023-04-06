@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(images/backG1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.15);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.list{
+    list-style: none;
+}
+nav .LP{
+    float: left; 
+    width: 60%; 
+    padding-top: 10px;  
+}
+nav .RP{
+    float: right;
+    width: 40%;
+    padding-top: 20px;
+}
+.C{
+    clear: both;
+}
+.list li a{
+    text-decoration: none;
+    color: wheat;
+    font-size: 20px;
+}
+.list li a:hover{
+    cursor: pointer;
+    color: chocolate;
+}
+header .list li{
+    display: inline-block;
+    padding: 0px  10px;
+}
+.text{
+    transform: translateY(100%);
+    text-align: center;
+    color: white;
+    margin: auto;
+    font-size: 150%;
+    line-height: 2;
+}
+button{
+    padding: 15px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+.learn-more{
+    background-color: rgb(151, 81, 30);
+    border: none;
+}
+footer{
+    background-color: gray;
+}
+footer,i{
+    text-align: center;
+    margin-top: 20px;
+}
+b{
+    color: white;
+}
+.part{
+    width: 40%;
+    float: left;
+    line-height: 1.8;
+}
+.DEA{
+    width: 90%;
+    margin: auto;
+}
+#who,#our{
+    margin-top: 30px;
+}
+.img{
+    margin-right: 30px;
+}
+.txt{
+    margin-left: 20px;
+    transform: translateY(20%);
+}
+#our .img{
+    float: right;
+}
